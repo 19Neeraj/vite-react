@@ -1,0 +1,44 @@
+ /* Api.css */
+
+/* Style the table */
+.api{
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+.api h1{
+    color: black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+}
+
+/* Style table header */
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+thead th {
+  padding: 8px;
+}
+
+/* Style table rows */
+tbody tr {
+  background-color: #fff;
+  color: #333;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+  background-color: #f0f0f0;
+}

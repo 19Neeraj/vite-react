@@ -1,0 +1,137 @@
+.home{
+    background-image: url(../images/extra/hero4.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh; 
+    background-position: top -25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;   
+}
+
+.home h4{margin-left: 1.2vw;}
+h2{
+    font-size: 38px;
+    line-height: 56px;
+    color: #222;
+}
+h1{
+    font-size: 3.2em;
+    color: darkgreen;
+}
+p{
+    color: #465b52;}
+.shopnow{
+    background-image: url(../images/extra/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    top: 2vh;
+}
+.shopnow:hover{
+    color: #000;
+}
+.home #brhome{
+    display: none;
+}
+@media(max-width: 470px){
+    .home{
+        background-position: center right 35%;
+        /* background-size: ce; */
+        width: 115vw;
+        margin-top: 13vh;
+    }   
+    .home h4{
+        margin: -24vh 0vw 0vh -18vw;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+    }
+    .home h2{
+        font-size: 22px;
+        width: 100vw;
+        line-height: 56px;
+        color: #222;
+        margin: 0vh 0vw 0vh -18vw;
+    }
+    .home h1{
+        color: darkgreen;
+        width: 100vw;
+        margin: 0vh 0vw 0vh -18vw;
+        font-size: 29px;
+    }
+    .home #brhome{
+        display: block;
+    }
+    p{
+        color: #465b52;
+        width: 100vw;
+        margin: 0vh 0vw 0vh -18vw;
+    }
+   .shopnow{
+    position: relative;
+    top: 5vh;
+    left: -37vw;
+    padding: 15px 94px 14px 93px;
+    width: 85vw;
+    background-position: center center;
+    display: flex;
+   }
+}
+
+@media (min-width: 470px) and (max-width: 770px){
+    .home{
+        padding: 0 80px;
+        background-position: top 30% right 20%;
+        position: relative;
+        top: 10vh;
+        left: 0vw;
+        width: 151vw;
+    }
+     .home h4{
+        margin: -16vh 0vw 0vh 5vw;
+        font-size: 28px;
+    }
+    .home h2{
+        /* font-size: 22px; */
+        width: 100vw;
+        line-height: 56px;
+        color: #222;
+        margin: 0vh 0vw 0vh -4vw;
+    }
+    .home #brhome{
+        display: none;
+    }
+    .home h1{
+        color: darkgreen;
+        width: 100vw;
+        margin: 0vh 0vw 0vh -5vw;
+        /* font-size: 29px; */
+    }
+    p{
+        color: #465b52;
+        width: 100vw;
+        margin: 0vh 0vw 0vh -5vw;
+        font-size: 18px;
+    }
+    .shopnow{
+     position: relative;
+     top: 8vh;
+     left: -28vw;
+     padding: 15px 94px 14px 93px;
+     /* height: 10vh; */
+     width: 85vw;
+     background-position: center center;
+     background-size: 300px;
+     font-size: 22px;
+    }
+}

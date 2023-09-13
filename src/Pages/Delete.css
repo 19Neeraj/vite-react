@@ -1,0 +1,8 @@
+.delete{
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+.delete h1{
+    color: black;
+}

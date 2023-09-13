@@ -1,0 +1,191 @@
+.features{
+    /* background-color: black; */
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 50vh; 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.features1, .features2, .features3, .features4, .features5, .features6{
+    /* background-color: rgb(255, 255, 255); */
+    width: 14vw ;
+    height: 28vh;
+    border: 0.1px solid #E3E6F3;
+    border-radius: 7px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+}
+.features1:hover, .features2:hover, .features3:hover, .features4:hover, .features5:hover, .features6:hover{
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.15);
+}
+.features1{
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+.features2{
+    position: relative;
+    top: 10vh;
+    left: 4vw;
+}
+.features3{
+    position: relative;
+    top: 10vh;
+    left: 6vw;
+}            
+.features4{
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+}
+.features5{
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+}
+.features6{
+    position: relative;
+    top: 10vh;
+    left: 12vw;
+}
+ .features img{
+    width: 95%;
+    margin-top: 10px;
+}
+.features #h6{
+    font-size: 12px;
+    margin-left: 45px;    
+}
+@media(max-width: 470px) {
+    .features{
+        /* background-color: black; */
+        position: relative;
+        top: 4vh;
+        left: 0vw;
+        width: 100vw;
+        height: 50vh; 
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-gap: 5vw;
+        grid-template-rows: 30vh 30vh 30vh;
+    }
+    .features1, .features2, .features3, .features4, .features5, .features6{
+        /* background-color: rgb(255, 255, 255); */
+        width: 42vw ;
+        height: 32vh;
+        border: 0.1px solid #E3E6F3;
+        border-radius: 7px;
+        box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    }
+    .features1:hover, .features2:hover, .features3:hover, .features4:hover, .features5:hover, .features6:hover{
+        box-shadow: 10px 10px 50px rgba(0,0,0,0.15);
+    }
+    .features1{
+        position: relative;
+        top: 10vh;
+        left: 6vw;
+    }
+    .features2{
+        position: relative;
+        top: 10vh;
+        left: 16vw;
+    }
+    .features3{
+        position: relative;
+        top: 10vh;
+        left: 6vw;
+    }            
+    .features4{
+        position: relative;
+        top: 10vh;
+        left: 16vw;
+    }
+    .features5{
+        position: relative;
+        top: 10vh;
+        left: 6vw;
+    }
+    .features6{
+        position: relative;
+        top: 10vh;
+        left: 16vw;
+    }
+     .features img{
+        width: 95%;
+        margin-top: 10px;
+    }
+    .features #h6{
+        font-size: 12px;
+        margin-left: 45px;    
+        color: #000;
+    }
+}
+/* 
+
+
+
+ */
+
+@media (min-width: 470px) and (max-width: 770px){
+    .features{
+        position: relative;
+        top: 4vh;
+        left: 0vw;
+        width: 151vw;
+        height: 50vh; 
+        display: grid;
+        grid-template-columns: 22vw 22vw 22vw 22vw 22vw 22vw ;
+        grid-template-rows: 40vh;
+    }
+    .features1, .features2, .features3, .features4, .features5, .features6{
+        width: 22vw ;
+        height: 32vh;
+        border: 0.1px solid #E3E6F3;
+        border-radius: 7px;
+        box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    }
+    .features1:hover, .features2:hover, .features3:hover, .features4:hover, .features5:hover, .features6:hover{
+        box-shadow: 10px 10px 50px rgba(0,0,0,0.15);
+    }
+    .features1{
+        position: relative;
+        top: 10vh;
+        left: 3vw;
+    }
+    .features2{
+        position: relative;
+        top: 10vh;
+        left: 5vw;
+    }
+    .features3{
+        position: relative;
+        top: 10vh;
+        left: 7vw;
+    }            
+    .features4{
+        position: relative;
+        top: 10vh;
+        left: 9vw;
+    }
+    .features5{
+        position: relative;
+        top: 10vh;
+        left: 11vw;
+    }
+    .features6{
+        position: relative;
+        top: 10vh;
+        left: 13vw;
+    }
+     .features img{
+        width: 95%;
+        margin-top: 10px;
+    }
+    .features #h6{
+        font-size: 12px;
+        margin-left: 45px;    
+        color: #000;
+    }
+}

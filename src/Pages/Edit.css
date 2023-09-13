@@ -1,0 +1,64 @@
+.edit{
+    position: relative;
+    top: 10vh;
+    left: 2vw;
+}
+.edit h1{
+    color: black;
+}
+
+.contact-form {
+    width: 90vw;
+    height: 80vh;
+    border: 2px solid black;
+    position: relative;
+    top: 0vh;
+    left: 5vw;
+    display: grid;
+    grid-template-columns: 65vw 25vw;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+  }
+  .form span {
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+    color: #000;
+  }
+  .form h4 {
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+    font-size: 24px;
+  }
+  .form input,
+  .form textarea {
+    background-color: #fff;
+    color: #000;
+    /* background-color:  #000;
+    color:  #fff; */
+    border: 0.5px solid darkslategray;
+    width: 50vw;
+    height: 5vh;
+    outline: none;
+    border-radius: 3px;
+  }
+  .form textarea {
+    height: 25vh;
+  }
+  #form-button { 
+    width: 10vw;
+    height: 5vh;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: darkslategrey;
+    color: #fff;
+  }

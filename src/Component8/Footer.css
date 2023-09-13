@@ -1,0 +1,280 @@
+.footer{
+    position: relative;
+    top: 98vh;
+    left: 0vw;
+    border: none;
+    border-radius: 5px;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    padding: 5px;
+}
+.address{
+    position: relative;
+    top: 2vh;
+}
+.address p{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+}
+.icons{
+    position: relative;
+    top: 2vh;    
+    margin-top: 2vh;
+    /* padding: 2px; */
+}
+.icons #icons{
+    padding: 2px;
+    font-size: 22px;
+    color: rgb(0, 75, 67);
+    font-weight: 800;
+}
+.about-account{
+    display: grid;    
+    grid-template-columns: 15vw 15vw;
+    grid-template-rows: 25vh;
+    position: relative;
+    top: 15vh;
+    left: 5vw;
+}
+.about-account .about{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    width: 15vw;
+}
+.footer h3{color: black;}
+.footer p:hover{text-decoration: underline;}
+.about-account p{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+    cursor: pointer;
+}
+.install{
+    position: relative;
+    top: 15vh;
+    left: 2vw;    
+}
+.install p{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px;
+}
+.install #play , .install #app{
+    border: 0.1px solid black;
+    border-radius: 9px;
+    margin: 2px;
+    width: 40%;
+    cursor: pointer;
+}
+/* 
+
+
+
+ */
+
+@media(max-width: 470px){
+    .footer{
+        position: relative;
+        top: 565vh;
+        left: 0vw;
+        border: none;
+        border-radius: 5px;
+        height: 40vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 50vh 50vh 50vh;
+    }
+    .image{
+        position: relative;
+        top: 5vh;
+        left: 20vw;
+        padding: 5px;
+    }
+    .image img{width: 60%;margin-left: -15vw;}
+    .address{
+        position: relative;
+        top: 2vh;
+    }
+    .address h3{
+        font-size: 26px;
+        margin-left: -13vw;
+    }
+    .address p{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 2px;
+        width: 105vw;
+        margin-left: -13vw;
+    }
+    .icons{
+        position: relative;
+        top: 2vh;    
+        margin-top: 2vh; 
+        margin-left: -13vw;  
+        width: 100vw;    
+        justify-content: center; 
+        /* padding: 2px; */
+    }
+    .icons h3{
+        font-size: 26px;
+    }
+    .icons #icons{
+        padding: 4px;
+        font-size: 26px;
+        color: rgb(0, 75, 67);
+        font-weight: 800;
+        margin-left: 1vw;  
+    }
+    .about-account{
+        display: grid;    
+        grid-template-columns: 50vw 50vw;
+        position: relative;
+        top: 20vh;
+        left: 5vw;
+    }
+    .about-account p{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 2px;
+    }
+    .about h3 , .account h3{margin-left: 4vw;font-size: 26px;}
+    .about p , .account p{margin-left: 4vw;width: 40vw;}
+
+    .install{
+        position: relative;
+        top: 6vh;
+        left: 9vw;    
+    }
+    .install h3{font-size: 26px;}
+    .install p{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 2px;
+        margin-left: 0vw;
+        width: 50vw;
+    }
+    .install #play , .install #app{
+        border: 0.1px solid black;
+        border-radius: 9px;
+        margin: 2px;
+        width: 45%;
+    }
+    .install img{width: 65%;}
+}
+/* 
+
+
+
+ */
+
+@media (min-width: 470px) and (max-width: 770px){
+    .footer{
+        position: relative;
+        top: 95vh;
+        left: 0vw;
+        border: none;
+        border-radius: 5px;
+        height: 40vh;
+        width: 151vw;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 70vh 70vh 70vh; 
+    }
+    .image{
+        position: relative;
+        top: 5vh;
+        left: 20vw;
+        padding: 5px;
+        width: 100vw;
+    }
+    .image img{width: 60%;margin-left: -15vw;}
+    .address{
+        position: relative;
+        top: 2vh;
+        left: 0vw;
+        width: 100vw;
+    }
+    .address h3{
+        font-size: 38px;
+        margin-left: -13vw;
+    }
+    .address p{
+        font-size: 22px;
+        font-weight: 600;
+        padding: 2px;
+        width: 105vw;
+        margin-left: -13vw;
+    }
+    .icons{
+        position: relative;
+        top: 2vh;    
+        margin-top: 2vh; 
+        margin-left: -13vw;  
+        width: 100vw;    
+        justify-content: center; 
+        /* padding: 2px; */
+    }
+    .icons h3{
+        font-size: 38px;
+    }
+    .icons #icons{
+        padding: 7px;
+        font-size: 44px;
+        color: rgb(0, 75, 67);
+        font-weight: 800;
+        position: relative;
+        top: -10vh;
+        left: 31vw; 
+    }
+    .about-account{
+        display: grid;    
+        grid-template-columns: 50vw 50vw;
+        position: relative;
+        top: 28vh;
+        left: 4vw;
+    }
+    .about-account .about{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 40vw;
+    }
+    .about-account p{
+        font-size: 22px;
+        font-weight: 600;
+        padding: 2px;
+    }
+    .about h3 , .account h3{margin-left: 4vw;font-size: 38px;}
+    .about p , .account p{margin-left: 4vw;width: 40vw;}
+
+    .install{
+        position: relative;
+        top: 20vh;
+        left: 8vw;    
+    }
+    .install h3{font-size: 38px;}
+    .install p{
+        font-size: 22px;
+        font-weight: 600;
+        padding: 2px;
+        margin-left: 0vw;
+        width: 50vw;
+    }
+    .install #play , .install #app{
+        border: 0.1px solid black;
+        border-radius: 9px;
+        margin: 2px;
+        width: 45%;
+    }
+    .install img{width: 65%;}
+}

@@ -1,0 +1,125 @@
+.banner{
+    position: relative;
+    top: 68vh;
+    left: 0vw;
+    width: 100vw;
+    height: 45vh;
+    background-image: url(../images/banner/b2.jpg);
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+}
+.banner h1{
+    color: white;
+  position: relative;
+  top: 10vh;
+  left: 20vw;
+  width: 70vw;
+  font-size: 54px;
+}
+.banner h1 strong{
+    color: yellow;
+}
+.banner button{
+    position: relative;
+    top: 14vh;
+    left: 40vw;
+    width: 15vw;
+    height: 10vh;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.banner button:hover{
+    -webkit-box-shadow: 0 0 6.5px 3px #ff9a00;
+-moz-box-shadow: 0 0 6.5px 3px #ff9a00;
+box-shadow: 0 0 6.5px 3px #ff9a00;
+color: #ff9a00;
+font-size: 23px;
+}
+@media(max-width: 470px){
+    .banner{
+        position: relative;
+        top: 385vh;
+        left: 0vw;
+        width: 115vw;
+        height: 45vh;
+        background-image: url(../images/banner/b2.jpg);
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+    }
+    .banner h1{
+        color: white;
+      position: relative;
+      top: 10vh;
+      left: 5vw;
+      font-size: 28px;
+      width: 115vw;
+    }
+    .banner h1 strong{
+        color: yellow;
+    }
+    .banner button{
+        position: relative;
+        top: 14vh;
+        left: 32vw;
+        width: 47vw;
+        height: 10vh;
+        background-color: white;
+        color: black;
+        font-size: 22px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+}
+@media (min-width: 470px) and (max-width: 770px){
+    .banner{
+        position: relative;
+        top: 55vh;
+        left: 0vw;
+        width: 151vw;
+        height: 48vh;
+        background-image: url(../images/banner/b2.jpg);
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+    }
+    .banner h1{
+        color: white;
+      position: relative;
+      top: 10vh;
+      left: 22vw;
+      font-size: 52px;
+      width: 115vw;
+    }
+    .banner h1 strong{
+        color: yellow;
+    }
+    .banner button{
+        position: relative;
+        top: 14vh;
+        left: 50vw;
+        width: 50vw;
+        height: 10vh;
+        background-color: white;
+        color: black;
+        font-size: 28px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+}
