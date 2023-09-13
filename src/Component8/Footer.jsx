@@ -16,10 +16,10 @@ export default function Footer() {
           <img src={logo} alt="Cara" />
           <div className="address">
           <h3> Contact </h3>
-            <p><strong>Address : </strong> 562 Wellinton Road, Street 32, San Francisco</p>
-            <p><strong>Phone : </strong> +01 2222-365 | +91 234-56-789-01</p>
+            <p><strong>Address : </strong> Gurugram sec-14</p>
+            <p><strong>Phone : </strong> +01  | +91 946-64-173-50</p>
             <p><strong>Outlet-Timing (India) : </strong>09:00 - 08:00, Monday - Sunday <strong> Tuesday Off </strong>  </p>
-            <p><strong>Outlet-Timing (USA) : </strong>010:00 - 09:00, Monday - Saturday <strong> Sunday Off </strong>  </p>
+            {/* <p><strong>Outlet-Timing (USA) : </strong>010:00 - 09:00, Monday - Saturday <strong> Sunday Off </strong>  </p> */}
           </div>
           <div className="icons" id="icons">
             <h3>Follow Us</h3>

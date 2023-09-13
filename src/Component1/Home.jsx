@@ -12,8 +12,8 @@ export default function Home() {
     <> 
     <section className="home" id="home"> 
         <h4>Trade-In-Offer</h4>
-        <h2>Super Value Deals</h2>
-        <h1>On All Products</h1>
+        <h2>Welcome To </h2>
+        <h1>yadav Fashion point</h1>
         <p>Save More With Coupons and  <br id='brhome'/> Up-to  <strong> 30% Off</strong> </p>
         <button className='shopnow'>Shop Now</button>
     </section>
